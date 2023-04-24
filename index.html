@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var num1 = parseInt (prompt ("Ingrese el primer valor"));
+        var num2 = parseInt (prompt ("Ingrese el segundo valor"));
+        var cont = 0;
+        while( cont<=6){
+            cont ++;
+            if(cont==1){
+                suma = num1 + num2;
+                alert("El resultado de la suma es: " + suma);
+            }
+            if(cont==2){
+                resta = num1 - num2;
+                alert("El resultado de la resta es: " + resta);
+            }
+            if(cont==3){
+                multi = num1 * num2;
+                alert("El resultado de la multiplicación es: " + multi);
+            }
+            if(cont==4){
+                divi = num1 / num2;
+                alert ("El resultado de la división es: " + divi);
+            }
+            if(cont==5){
+                mod = num1 % num2;
+                alert ("El resultado del residuo es: " + mod);
+            }
+        }
+    </script>
+</body>
+</html>
